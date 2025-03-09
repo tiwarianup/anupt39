@@ -18,16 +18,16 @@ const Footer = () => {
               Specialized in building end-to-end AI applications and software solutions with a focus on generative AI, AI agents, Django, and Azure cloud architecture.
             </p>
             <div className="flex space-x-4">
-              <a href="https://github.com/anuptiwari32" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://github.com/tiwarianup" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <FiGithub className="w-5 h-5" />
               </a>
-              <a href="https://linkedin.com/in/anuptiwari32" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://linkedin.com/in/anupt39" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <FiLinkedin className="w-5 h-5" />
               </a>
-              <a href="https://twitter.com/anuptiwari32" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://twitter.com/anupt39" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <FiTwitter className="w-5 h-5" />
               </a>
-              <a href="https://instagram.com/anuptiwari32" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://instagram.com/anupt39" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <FiInstagram className="w-5 h-5" />
               </a>
               <a href="mailto:anup.tiwari39@gmail.com" className="text-gray-400 hover:text-white transition-colors">
