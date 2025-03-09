@@ -6,28 +6,30 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "framer-motion": "^10.18.0",
     "next": "^14.0.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.12.0",
-    "react-hook-form": "^7.49.2",
-    "framer-motion": "^10.16.16",
-    "react-calendly": "^4.3.0",
     "nodemailer": "^6.9.7",
-    "@headlessui/react": "^1.7.17"
+    "react": "^18.2.0",
+    "react-calendly": "^4.3.1",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.54.2",
+    "react-icons": "^4.12.0"
   },
   "devDependencies": {
     "@types/node": "^20.10.5",
+    "@types/nodemailer": "^6.4.17",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
-    "@types/nodemailer": "^6.4.14",
-    "autoprefixer": "^10.4.16",
+    "autoprefixer": "^10.4.20",
     "eslint": "^8.56.0",
     "eslint-config-next": "^14.0.4",
-    "postcss": "^8.4.32",
+    "postcss": "^8.5.3",
     "tailwindcss": "^3.3.6",
     "typescript": "^5.3.3"
   }
