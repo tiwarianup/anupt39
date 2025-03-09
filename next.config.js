@@ -14,8 +14,8 @@ const nextConfig = {
   },
   // GitHub Pages uses a custom domain or username.github.io/repo-name
   // If you're using a custom domain, you can remove this
-  basePath: '/anuptiwari32',
-  assetPrefix: '/anuptiwari32',
+  basePath: '/anupt39',
+  assetPrefix: '/anupt39',
 }
 
 module.exports = nextConfig 

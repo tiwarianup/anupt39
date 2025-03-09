@@ -39,9 +39,6 @@ const Header = () => {
           <Link href="#pricing" className="font-medium hover:text-primary transition-colors">
             Pricing
           </Link>
-          <Link href="#testimonials" className="font-medium hover:text-primary transition-colors">
-            Testimonials
-          </Link>
           <Link href="#contact" className="font-medium hover:text-primary transition-colors">
             Contact
           </Link>
@@ -80,13 +77,6 @@ const Header = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Pricing
-            </Link>
-            <Link 
-              href="#testimonials" 
-              className="font-medium hover:text-primary transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Testimonials
             </Link>
             <Link 
               href="#contact" 

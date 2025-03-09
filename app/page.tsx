@@ -7,7 +7,6 @@ import Services from '@/components/Services'
 import Expertise from '@/components/Expertise'
 import Pricing from '@/components/Pricing'
 import Contact from '@/components/Contact'
-import Testimonials from '@/components/Testimonials'
 import CTA from '@/components/CTA'
 
 export default function Home() {
@@ -18,7 +17,6 @@ export default function Home() {
       <Services />
       <Expertise />
       <Pricing />
-      <Testimonials />
       <CTA />
       <Contact />
       <Footer />

@@ -27,7 +27,9 @@ const Contact = () => {
     
     try {
       // For GitHub Pages (static site), use email mailto link as fallback
-      if (typeof window !== 'undefined' && window.location.hostname.includes('github.io')) {
+      if (typeof window !== 'undefined' && 
+          (window.location.hostname.includes('github.io') || 
+           window.location.pathname.includes('/anupt39'))) {
         const subject = encodeURIComponent(data.subject);
         const body = encodeURIComponent(`Name: ${data.name}\nEmail: ${data.email}\nMessage: ${data.message}`);
         window.open(`mailto:anup.tiwari39@gmail.com?subject=${subject}&body=${body}`);
