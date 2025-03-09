@@ -24,10 +24,10 @@ const Footer = () => {
               <a href="https://linkedin.com/in/anupt39" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <FiLinkedin className="w-5 h-5" />
               </a>
-              <a href="https://twitter.com/anupt39" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://twitter.com/#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <FiTwitter className="w-5 h-5" />
               </a>
-              <a href="https://instagram.com/anupt39" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://instagram.com/_nupy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <FiInstagram className="w-5 h-5" />
               </a>
               <a href="mailto:anup.tiwari39@gmail.com" className="text-gray-400 hover:text-white transition-colors">
